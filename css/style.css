@@ -1,0 +1,360 @@
+/* azeret-mono-regular - latin */
+@font-face {
+  font-family: 'Azeret Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/azeret-mono-v11-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/azeret-mono-v11-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* azeret-mono-700 - latin */
+@font-face {
+  font-family: 'Azeret Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('../fonts/azeret-mono-v11-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/azeret-mono-v11-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* inter-regular - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/inter-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1328px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.label-lg {
+  font-family: 'Azeret Mono';
+  font-weight: 700;
+}
+
+.label-sm {
+  font-family: 'Azeret Mono';
+  font-weight: 400;
+}
+
+.title {
+  font-family: 'Inter';
+  font-weight: 400;
+}
+
+/* header style start */
+
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin: 0 auto;
+  padding: 44px 0 44px 0;
+  z-index: 999;
+}
+
+ .header__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ .header__center {
+  margin-right: 50px;
+ }
+
+ .header__list {
+  display: flex;
+ }
+
+ .header__item {
+  list-style: none;
+  margin-right: 20px;
+ }
+
+ .header__link {
+  color: #D27487;
+ }
+
+ .header__right {
+  display: flex;
+  justify-content: flex-end;
+ }
+
+ .header__social {
+  margin-left: 16px;
+ }
+/* header style end */
+
+/* main style start */
+
+/* intro style start */
+
+.intro {
+  position: relative;
+  min-height: 100%;
+  background-color: #4A2B33;
+}
+
+.intro__logo {
+  padding-top: 120px;
+  padding-bottom: 36px;
+  align-items: center;
+}
+
+/* intro style end*/
+
+/* about style start */
+
+.about {
+  position: relative;
+  padding: 220px 0 244px 0;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__label {
+  font-size: 17px;
+  line-height: 22px;
+}
+
+.about__title {
+  max-width: 869px;
+  font-size: 32px;
+  line-height: 45px;
+  text-align: center;
+}
+/* about style end */
+
+/* menu style start */
+
+.menu {
+  position: relative;
+  background: #E9E9E3;
+  padding: 120px 0;
+}
+
+.menu__column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.menu__text {
+  padding-bottom: 74px;
+}
+
+.menu__label {
+  font-size: 18px;
+  line-height: 22px;
+  color: #6F6F64;
+}
+
+.menu__title {
+  font-size: 32px;
+  line-height: 45px;
+  color: #6F6F64;
+  
+  max-width: 558px;
+}
+
+.menu__button {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.menu__link {
+  margin-bottom: 12px;
+  padding: 17px 0;
+  border: 2px solid #6F6F64;
+  color: #6F6F64;
+}
+
+/* menu style end */
+
+/* info style start */
+
+.info {
+  position: relative;
+  background: #AA9E54;
+  padding: 120px 0 135px 0;
+}
+
+.info__column {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px 0 86px;
+}
+
+.info__left p {
+  max-width: 220px;
+}
+
+.info__center {
+  padding-left: 50px;
+}
+
+.info__center p {
+  max-width: 234px;
+}
+
+.info__right p {
+  max-width: 352px;
+}
+
+.info__label {
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.info__title {
+  font-size: 25px;
+  line-height: 36px;
+  text-align: center;
+  color: #fff;
+}
+
+/* info style end */
+
+/* booking style start */
+
+.booking {
+  position: relative;
+  padding: 152px 0 120px 0;
+}
+
+.booking__column {
+  display:flex ;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.booking__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 644px;
+  max-height: 640px;
+}
+
+/* booking style end */
+
+/* honor style start */
+
+.honor {
+  position: relative;
+  background: #4A2B33;
+  padding: 121px 0 133px 0;
+}
+
+.honor__text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.honor__label {
+  max-width: 413px;
+  font-size: 47px;
+  line-height: 62px;  
+  color: #D27487;
+}
+
+.honor__title {
+  max-width: 595px;
+  padding-top: 18px;
+  font-size: 18px;
+  line-height: 27px;
+  color: #D27487;
+}
+
+/* honor style end */
+
+/* main style end */
+
+/* footer style start */
+
+.footer {
+  position: relative;
+  padding-top: 56px;
+  padding-bottom:39px ;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  padding: 56px 0px 39px 0px;
+}
+
+.footer__top, .footer__among {
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.footer__bottom {
+  font-size: 13px;
+  line-height: 20px;
+  color: #696969;
+}
+
+.footer__bottom {
+  padding: 0 40px;
+}
+
+.footer__list {
+  display: flex;
+  list-style: none;
+}
+
+.footer__list:last-child {
+  justify-content: center;
+}
+
+.footer__item {
+  margin-right: 32px;
+}
+
+.footer__item:last-child {
+  margin: 0;
+}
+
+
+.footer__link {
+  color: #1F1F1F;
+}
+
+/* footer style end */
